@@ -52,22 +52,25 @@
 ---
 
 ## 📁 Project Structure
+
+```
 nexus-lms/
 ├── app/
-│   ├── (auth)/         # Sign-in / Sign-up
-│   ├── (dashboard)/    # Student & teacher dashboard
-│   ├── (course)/       # Course viewer & video player
-│   └── api/            # API routes (courses, webhook, uploadthing)
-├── actions/            # Server actions
-├── components/         # Shared UI components
-├── hooks/              # Custom React hooks
-├── lib/                # Prisma, Stripe, Mux clients
-├── prisma/             # Database schema
-├── public/             # Static assets
-├── scripts/            # Seed scripts
-└── middleware.ts       # Clerk auth middleware
+│   ├── (auth)/           # Sign-in / Sign-up
+│   ├── (dashboard)/      # Student & teacher dashboard
+│   ├── (course)/         # Course viewer & video player
+│   └── api/              # Courses, webhook, uploadthing
+├── actions/              # Server actions
+├── components/           # Shared UI components
+├── hooks/                # Custom React hooks
+├── lib/                  # Prisma, Stripe, Mux clients
+├── prisma/               # Database schema
+├── public/               # Static assets
+├── scripts/              # Seed scripts
+└── middleware.ts         # Clerk auth middleware
+```
 
----
+
 
 ## 🚀 Getting Started
 
